@@ -12,10 +12,12 @@ public class FirstClass {
         System.out.println("hello git project");
         System.out.println("hello git project");
 
+        System.out.println(test());
 
     }
-    public void test(){
+    private static int test(){
         int i = 0;
         i += 10;
+        return i;
     }
 }
